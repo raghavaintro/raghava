@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR U </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #ff7e5f, #feb47b, #ffda90, #fff4af);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            text-align: center;
+            color: #000;
+            animation: fadeIn 1s ease-out;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 36px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        p {
+            font-size: 18px;
+            margin-top: 20px;
+            animation: slideIn 1s ease-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        img {
+            width: 300px;
+            border-radius: 50%;
+            margin-top: 30px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+            animation: zoomIn 1s ease-out;
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Beautiful!</h1>
+    <p>I just wanted to create this simple webpage to let you know how amazing I think you are. You always bring so much joy and positivity into my life, and I'm incredibly grateful to have you in it,thank u so much princess</p>
+    <img src="https://place-dog.com/300/300" alt="Cute Dog Image">
+    <p>Looking forward to more wonderful conversations with you!</p>
+</body>
+</html>
